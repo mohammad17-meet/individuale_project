@@ -1,0 +1,10 @@
+
+<div class="Player">
+	{% for item in Player %}
+	<a herf="{{ url_for('Player') }}", player_id = item.id)}}>
+		<p>{{items.name}}<p>
+		<img scr={{item.photo}} height="250" >
+	</a>
+</div>
+
+	{% endfor %}
